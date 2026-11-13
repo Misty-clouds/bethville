@@ -30,7 +30,7 @@ export function LinkRow({ label, icon, iconSize, href, showArrow = true, classNa
             className={cn(iconSize === "large" ? "size-6" : "size-[22px]")}
           />
         </span>
-        <span className="text-[18px] leading-[1.5] whitespace-pre">{label}</span>
+        <span className="min-w-0 text-[18px] leading-[1.5] wrap-anywhere">{label}</span>
       </span>
       <span className="relative size-6 shrink-0 overflow-hidden">
         {showArrow && <ArrowRightIcon className="absolute top-1 left-1 h-[13px] w-[14px] text-ink" />}

@@ -26,8 +26,8 @@ export const socialLinks = [
 
 export const contactLinks = [
   {
-    label: "Elizabethakpoveta@gmail.com",
-    href: "mailto:Elizabethakpoveta@gmail.com",
+    label: "bethvillebookkeepingservices@gmail.com",
+    href: "mailto:bethvillebookkeepingservices@gmail.com",
     icon: "/images/icons/gmail.png",
     iconSize: "large",
   },
@@ -37,7 +37,15 @@ export const contactLinks = [
     icon: "/images/icons/phone.png",
     iconSize: "small",
   },
+  {
+    label: "+1 (508) 781-4985",
+    href: "tel:+15087814985",
+    icon: "/images/icons/phone.png",
+    iconSize: "small",
+  },
 ] as const;
+
+export const businessAddress = "129 E Main St, Suite 4, Webster MA 01570";
 
 export type ServiceTheme = 1 | 2 | 3 | 4 | 5 | 6;
 
