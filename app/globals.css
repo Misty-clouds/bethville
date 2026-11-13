@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+ * Breakpoints mirror the original Framer site:
+ *   base  → Mobile  (≤767px)
+ *   md    → Tablet  (768–1199px)
+ *   lg    → Laptop  (1200–1535px)
+ *   xl    → Desktop (≥1536px)
+ */
+@theme {
+  --breakpoint-sm: initial;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1536px;
+  --breakpoint-2xl: initial;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-satoshi), "Satoshi Placeholder", sans-serif;
+  --font-serif: var(--font-lustria), "Lustria Placeholder", serif;
+  --font-inter: var(--font-inter-bold-italic), "Inter Placeholder", sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-page: #eae8e1;
+  --color-surface: #f9f7f6;
+  --color-ink: #111011;
+  --color-ink-60: rgb(17 16 17 / 0.6);
+  --color-ink-50: rgb(17 16 17 / 0.5);
+  --color-ink-20: rgb(17 16 17 / 0.2);
+  --color-ink-10: rgb(17 16 17 / 0.1);
+  --color-nav: #333333;
+  --color-brand: #2576f1;
+  --color-glow: #6f9954;
+  --color-card: #f4f2ef;
+  --color-card-divider: #dce4ea;
+  --color-newsletter: #f8f6f5;
+  --color-input: #ebebeb;
+  --color-star-badge: #94b3e0;
+  --color-menu-border: #e3e5e8;
+  --color-menu-ink: #0b0c0e;
+
+  /* Service cards: background / pill / check icon */
+  --color-svc-1: #e1e4ed;
+  --color-svc-1-pill: #d1d8ed;
+  --color-svc-1-check: #a0a5b7;
+  --color-svc-2: #d1e5ff;
+  --color-svc-2-pill: #b6d4fc;
+  --color-svc-2-check: #8bb8e2;
+  --color-svc-3: #fff5e0;
+  --color-svc-3-pill: #fae8c3;
+  --color-svc-3-check: #d5c17d;
+  --color-svc-4: #f0f2ff;
+  --color-svc-4-pill: #e3e6fa;
+  --color-svc-4-check: #a0a6d9;
+  --color-svc-5: #edf5ff;
+  --color-svc-5-pill: #dce9fa;
+  --color-svc-5-check: #a6c6e9;
+  --color-svc-6: #fff7d9;
+  --color-svc-6-pill: #f7ecc3;
+  --color-svc-6-check: #d7c97b;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-page);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

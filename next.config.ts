@@ -13,6 +13,26 @@ const nextConfig: NextConfig = {
         loaders: ["@tailwindcss/turbopack"],
         as: "*.css",
       },
+      "*.svg": {
+        loaders: [
+          {
+            loader: "@svgr/webpack",
+            options: {
+              dimensions: false,
+              svgoConfig: {
+                plugins: [
+                  {
+                    name: "preset-default",
+                    params: { overrides: { removeViewBox: false } },
+                  },
+                  "prefixIds",
+                ],
+              },
+            },
+          },
+        ],
+        as: "*.js",
+      },
     },
   },
 };

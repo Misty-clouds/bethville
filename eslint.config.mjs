@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Local reference captures of the original site (not app code).
+    ".ref/**",
   ]),
 ]);
 
