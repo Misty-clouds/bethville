@@ -10,7 +10,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: "Facebook",
-    href: "https://www.facebook.com/share/dcjhMVbpDyYGQLsQ/?mibextid=LQQJ4d",
+    href: "https://www.facebook.com/share/1Lys2FX7rN/?mibextid=wwXIfr",
     icon: "/images/icons/facebook.png",
     iconSize: "large",
   },
@@ -18,7 +18,7 @@ export const socialLinks = [
     // The original uses a dotted capital "Ì" here — kept verbatim in the footer.
     label: "Ìnstagram",
     menuLabel: "Instagram",
-    href: "https://www.instagram.com/bethville_bookeeping_services/profilecard/?igsh=MWNuYm9wc3kycDRhYw==",
+    href: "https://www.instagram.com/bethville_bookeeping_services?exln=MWplaWF2b2sxczdrbQ%3D%3D&utm_source=qr",
     icon: "/images/icons/instagram.png",
     iconSize: "small",
   },
