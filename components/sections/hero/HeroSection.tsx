@@ -22,26 +22,21 @@ export function HeroSection() {
                       <StarBadgeIcon className="size-[19px] text-star-badge" />
                     </span>
                     <span className="text-center text-base leading-6 lg:text-left">
-                      <span className="md:hidden">
-                        Grow Your Business
-                        <br />
-                        We’ll Handle the Books
-                      </span>
-                      <span className="hidden md:inline">Grow Your Business—We’ll Handle the Books</span>
+                      Your Business. Our Expertise. Your Peace of Mind.
                     </span>
                   </p>
                 </Reveal>
 
                 <Reveal transition={appearHero} className="w-full xl:max-w-[540px]">
                   <h1 className="bg-[linear-gradient(49deg,#111011_0%,rgba(17,16,17,0.6)_100%)] bg-clip-text text-center font-serif text-[36px] leading-[1.2] tracking-[-1.44px] text-transparent md:text-[52px] md:tracking-[-2.08px] lg:text-left lg:text-[60px] lg:tracking-[-2.4px]">
-                    Transforming bookkeeping into a tool for growth and peace of mind.
+                    Simplifying Bookkeeping, Taxes, Payroll &amp; HR — So You Can Focus on Growing Your Business.
                   </h1>
                 </Reveal>
               </div>
 
               <div className="flex w-full flex-col items-center gap-8 lg:items-start">
                 <Reveal transition={appearHero}>
-                  <GlowButton href={CONSULTATION_URL}>Book free consultation</GlowButton>
+                  <GlowButton href={CONSULTATION_URL}>Book a Free Consultation</GlowButton>
                 </Reveal>
 
                 <Reveal
@@ -51,7 +46,7 @@ export function HeroSection() {
 
                 <Reveal transition={appearHeroLate} className="flex w-full justify-center lg:justify-start">
                   <p className="max-w-[464px] text-center text-[18px] leading-[1.5] lg:text-left">
-                    Helping businesses streamline finances and unlock growth through precise and personalized bookkeeping.
+                    Helping businesses stay financially organized, tax-ready, and compliant through personalized bookkeeping, tax preparation, payroll management, and HR support.
                   </p>
                 </Reveal>
               </div>

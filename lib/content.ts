@@ -175,11 +175,13 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-export const aboutCopy = {
-  long: "I’m Elizabeth O. Akpoveta, founder and lead accountant at Bethville Bookkeeping Services. With over 12 years of experience as a QuickBooks ProAdvisor, I’ve helped a wide range of clients, from startups to established businesses, keep their finances organized and their goals within reach. My approach is simple: provide you with clear, personalized, and transparent service, whether you need help cleaning up your books, setting up accounting tools, or creating detailed reports. Let me handle the bookkeeping, so you can focus on what you do best—growing your business.",
-  short:
-    "I'm Elizabeth O. Akpoveta, founder and lead accountant. With over 12 years of experience, I help businesses like yours stay organized with personalized, transparent bookkeeping. Let me handle the numbers, so you can focus on growing your business.",
-};
+export const aboutCopy = [
+  "I’m Elizabeth O. Akpoveta, founder of Bethville Bookkeeping & Tax Services.",
+  "With over 12 years of professional experience, I am passionate about helping individuals and business owners simplify their financial and administrative responsibilities.",
+  "At Bethville, we provide personalized bookkeeping, tax preparation, payroll management, and HR support designed to help businesses stay organized, compliant, and positioned for growth.",
+  "Our goal is simple: to take the stress out of managing your numbers and business operations so you can focus on what matters most - growing your business.",
+  "Your Business. Your Goals. Our Priority.",
+] as const;
 
 export const stats = [
   { label: "Years experience", value: "12" },
@@ -189,27 +191,38 @@ export const stats = [
 
 export const faqs = [
   {
-    question: "What services do you offer?",
+    question: "What services does Bethville offer?",
     answer:
-      "I provide bookkeeping, financial reporting, payroll management, tax support, and business consulting.",
+      "We offer bookkeeping, tax preparation and amendments, payroll management, and HR administrative support for individuals and businesses.",
   },
   {
-    question: "How can bookkeeping help my business?",
+    question: "Can Bethville manage both my bookkeeping and payroll?",
     answer:
-      "Bookkeeping keeps your finances organized, aids in decision-making, and ensures tax compliance.",
+      "Yes. We can help manage your bookkeeping and payroll workflows, giving you more consistent financial records and reporting.",
+  },
+  {
+    question: "Do you prepare individual and business tax returns?",
+    answer:
+      "Yes. We assist with individual and business tax preparation, amended returns, and responses to IRS and state tax notices.",
+  },
+  {
+    question: "What HR services do you provide?",
+    answer:
+      "Our HR administrative services include employee onboarding and offboarding, PTO tracking, employee records, and payroll-related coordination.",
   },
   {
     question: "How much do your services cost?",
-    answer: "Pricing is customized to your business’s size and needs. Contact me for a quote.",
+    answer:
+      "Pricing depends on your business size, transaction volume, employee count, and the services required. Schedule a free consultation for a customized quote.",
   },
   {
-    question: "Do small businesses need bookkeeping services?",
+    question: "Do you work with businesses outside Massachusetts?",
     answer:
-      "Yes, accurate bookkeeping is essential for tracking finances and preparing for taxes, even for small businesses.",
+      "Many of our services can be provided remotely. Availability depends on your location, business needs, and applicable requirements.",
   },
   {
-    question: "Is my financial information secure?",
+    question: "Is my financial and employee information secure?",
     answer:
-      "Absolutely. I use encrypted software and follow strict data protection practices.",
+      "We take confidentiality seriously and use appropriate access controls and secure systems when handling sensitive financial and employee information.",
   },
 ] as const;

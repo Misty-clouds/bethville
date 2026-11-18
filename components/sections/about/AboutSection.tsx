@@ -20,10 +20,11 @@ export function AboutSection() {
               About Bethville
             </SectionHeading>
             <Reveal className="w-full">
-              <p className="mx-auto max-w-[640px] text-center md:max-w-none lg:max-w-[640px] xl:max-w-[860px] text-[20px] leading-[1.5] tracking-[-0.4px]">
-                <span className="md:hidden">{aboutCopy.short}</span>
-                <span className="hidden md:inline">{aboutCopy.long}</span>
-              </p>
+              <div className="mx-auto flex max-w-[640px] flex-col gap-6 text-center text-[20px] leading-[1.5] tracking-[-0.4px] md:max-w-none lg:max-w-[640px] xl:max-w-[860px]">
+                {aboutCopy.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
             </Reveal>
           </div>
 
