@@ -19,16 +19,13 @@ export function Footer() {
             ))}
           </div>
 
-          <a
-            href="https://babarogic.com"
-            target="_blank"
-            rel="noopener"
+          <div
             className="flex w-full max-w-[1280px] items-center justify-center lg:px-[60px]"
           >
             <span className="text-center text-base leading-[1.2] text-ink-60">
               Bethville © 2024. Helping your Business Grow.
             </span>
-          </a>
+          </div>
         </div>
       </div>
     </footer>

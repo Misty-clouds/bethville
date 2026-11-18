@@ -176,13 +176,13 @@ export const testimonials: Testimonial[] = [
 ];
 
 export const aboutCopy = {
-  long: "I’m Elizabeth O. Akpoveta, founder and lead accountant at Bethville Bookkeeping Services. With over 10 years of experience as a QuickBooks ProAdvisor, I’ve helped a wide range of clients, from startups to established businesses, keep their finances organized and their goals within reach. My approach is simple: provide you with clear, personalized, and transparent service, whether you need help cleaning up your books, setting up accounting tools, or creating detailed reports. Let me handle the bookkeeping, so you can focus on what you do best—growing your business.",
+  long: "I’m Elizabeth O. Akpoveta, founder and lead accountant at Bethville Bookkeeping Services. With over 12 years of experience as a QuickBooks ProAdvisor, I’ve helped a wide range of clients, from startups to established businesses, keep their finances organized and their goals within reach. My approach is simple: provide you with clear, personalized, and transparent service, whether you need help cleaning up your books, setting up accounting tools, or creating detailed reports. Let me handle the bookkeeping, so you can focus on what you do best—growing your business.",
   short:
-    "I'm Elizabeth O. Akpoveta, founder and lead accountant. With over 10 years of experience, I help businesses like yours stay organized with personalized, transparent bookkeeping. Let me handle the numbers, so you can focus on growing your business.",
+    "I'm Elizabeth O. Akpoveta, founder and lead accountant. With over 12 years of experience, I help businesses like yours stay organized with personalized, transparent bookkeeping. Let me handle the numbers, so you can focus on growing your business.",
 };
 
 export const stats = [
-  { label: "Years experience", value: "10" },
+  { label: "Years experience", value: "12" },
   { label: "Projects completed", value: "68" },
   { label: "Industries served", value: "11" },
 ] as const;
